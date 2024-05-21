@@ -5,6 +5,7 @@
          
     <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +31,12 @@
       </ul>    
                   
     </nav>
+    <button class="mobile-open-btn" type="button">
+        <svg class="mobile-open-btn-icon" width="" height="">
+            <use href="./images/icons.svg#icon-burger"></use>
+            
+        </svg>
+    </button>
      
     <address class="infa" id="Contacts">
         <ul class="menu-top">
@@ -546,6 +553,30 @@
                                 <button class="review-form-submit">Send</button>
 
                              </form>
+                            </div>
+                        </div>
+
+                        <!--MOBILE MENU-->
+                        <div class="mobil-menu">
+                            <div class="container mobil-menu-container">
+                                <button class="mobil-menu-close-btn">
+                                    <svg class="mobil-menu-close-btn-icon">
+                                        <use href="./images/icons.svg#icon-close" width="" height=""></use>
+                                    </svg>
+                                </button>
+                                <nav class="mobil-menu-nav">
+                                    <ul class="mobil-menu-list">
+                                        <li class="mobil-menu-list-item">
+                                            <a href="" class="mobil-menu-list-link mobil-menu-list-link-title">Studio</a>
+                                        </li>
+                                        <li class="mobil-menu-list-item">
+                                            <a href="" class="mobil-menu-list-link">Portfolio</a>
+                                        </li>
+                                        <li class="mobil-menu-list-item">
+                                            <a href="" class="mobil-menu-list-link">Contacts</a>
+                                        </li> 
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
 
